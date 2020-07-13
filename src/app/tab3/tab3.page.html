@@ -1,17 +1,28 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Visible Events
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-list>
+    <ion-item>
+      <ion-label>The Rebellion</ion-label>
+      <ion-toggle color="success" checked="false"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Family Reunion</ion-label>
+      <ion-toggle color="success" checked="true"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Quarantine Vybz</ion-label>
+      <ion-toggle color="success" checked="true"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Neon Lights</ion-label>
+      <ion-toggle color="sucess" checked="false"></ion-toggle>
+    </ion-item>
+  </ion-list>
 </ion-content>

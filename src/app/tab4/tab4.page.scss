@@ -1,5 +1,4 @@
-ion-toolbar,
-ion-button {
+ion-toolbar {
   --background: rgb(139, 35, 61);
 }
 
@@ -14,3 +13,8 @@ ion-item > ion-label {
   color: rgb(139, 35, 61);
 }
 
+ion-list-header {
+  color: rgb(139, 35, 61);
+  font-weight: bold;
+  font-size: 16px;
+}
